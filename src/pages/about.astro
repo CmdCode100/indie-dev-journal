@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About"
+	description="About this blog and the game I'm building."
+	pubDate={new Date()}
+>
+	<p>
+		Hi — I'm a software engineer who decided to try something different: build an indie game.
+		This blog is where I document that journey, from first prototype to (eventually) shipping
+		something playable.
+	</p>
+
+	<p>The game is being built in <a href="https://godotengine.org/">Godot</a>. Expect posts on:</p>
+
+	<ul>
+		<li>Design decisions and the reasoning behind them</li>
+		<li>Technical deep-dives on the parts I find interesting</li>
+		<li>The boring engineering work that nobody talks about</li>
+		<li>Mistakes, rewrites, and what I'd do differently</li>
+	</ul>
+
+	<p>
+		If any of that sounds interesting, the <a href="/blog">blog</a> is the place to start. New
+		posts whenever there's something worth writing about.
+	</p>
+</Layout>
